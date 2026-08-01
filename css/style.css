@@ -286,6 +286,10 @@ main {
   align-items: center;
   justify-content: center;
 }
+.hero .eyebrow{
+  margin-left: 40%;
+  margin-right: 30%;
+}
 
 .hero-bg {
   position: absolute;
@@ -458,6 +462,13 @@ main {
   background: linear-gradient(180deg, var(--color-white) 0%, rgba(196, 30, 140, 0.03) 100%);
 }
 
+.about .eyebrow{
+  color: rgb(255, 0, 111);
+  margin-left: 1%;
+  font-size: large;
+  
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -493,6 +504,7 @@ main {
 
 .about-copy {
   padding: var(--spacing-md) 0;
+  margin-bottom: auto;
 }
 
 .about-copy p {
@@ -519,6 +531,13 @@ main {
   padding: var(--spacing-2xl) 0;
   background: rgba(196, 30, 140, 0.02);
 }
+
+  .why-us .eyebrow {
+  color: red; 
+  margin: 10px;
+  font-size: large;
+}
+
 
 .why-points {
   list-style: none;
@@ -659,8 +678,10 @@ body {
     display: inline-block;
 }
 
+
 .center {
     text-align: center;
+    
 }
 
 .collections h2 {
@@ -697,7 +718,7 @@ body {
     box-shadow: var(--shadow);
     transition: var(--transition);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 100%;
 }
 
@@ -709,15 +730,16 @@ body {
 /* ===== CARD IMAGE SECTION ===== */
 .cc-image {
     position: relative;
-    width: 80px;
-    height: 70px;
+    width: 100%;
+    height: 120px;
+    display: block;
     overflow: hidden;
     background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
 }
 
 .cc-image img {
-    width: 70px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     transition: var(--transition);
     display: block;
@@ -1021,6 +1043,12 @@ a {
   background: linear-gradient(180deg, var(--color-white) 0%, rgba(196, 30, 140, 0.03) 100%);
 }
 
+.courses .eyebrow{
+  margin-left: 40%;
+  margin-right: 30%;
+  
+}
+
 .courses-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1174,7 +1202,10 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--accent-color);
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    justify-content: center;
+    margin-left: 280px;
+    margin-right: 280px;
 }
 
 .center {
@@ -1184,9 +1215,10 @@ body {
 .gallery h2 {
     font-size: 48px;
     font-weight: 700;
-    color: var(--primary-color);
+    color: rgb(237, 152, 5);
     margin-bottom: 15px;
     letter-spacing: -1px;
+    text-transform: uppercase;
 }
 
 .gallery-subtitle {
@@ -1390,6 +1422,13 @@ img {
   background: linear-gradient(180deg, var(--color-white) 0%, rgba(196, 30, 140, 0.03) 100%);
 }
 
+.reviews .eyebrow{
+  justify-items: center;
+  margin-left: 40%;
+  margin-right: 30%;
+  
+}
+
 .reviews-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1435,6 +1474,7 @@ img {
 .visit {
   padding: var(--spacing-2xl) 0;
   background: rgba(196, 30, 140, 0.02);
+
 }
 
 .visit-grid {
@@ -1451,7 +1491,7 @@ img {
 
 .visit-info h3 {
   margin-bottom: var(--spacing-lg);
-  color: var(--color-secondary);
+  color: rgba(196, 136, 8, 0.815)
 }
 
 .visit-hours {
@@ -1506,6 +1546,10 @@ img {
 .contact {
   padding: var(--spacing-2xl) 0;
   background: linear-gradient(180deg, rgba(196, 30, 140, 0.03) 0%, var(--color-white) 100%);
+}
+.contact .eyebrow{
+  margin-left: 45%;
+  margin-right: 20%;
 }
 
 .contact-sub {
