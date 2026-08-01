@@ -629,7 +629,6 @@ body {
 .collections h2 {
     font-size: 48px;
     font-weight: 700;
-    color: var(--primary-color);
     margin-bottom: 15px;
     letter-spacing: -1px;
 }
