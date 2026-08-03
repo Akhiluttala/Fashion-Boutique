@@ -939,7 +939,7 @@ a {
     cursor: pointer;
 }
 
-/* ===== DARK MODE SUPPORT ===== */
+/* ===== DARK MODE SUPPORT ===== 
 @media (prefers-color-scheme: dark) {
     :root {
         --card-bg: #1a1a1a;
@@ -955,7 +955,7 @@ a {
     .collection-card {
         border: 1px solid rgba(212, 175, 55, 0.1);
     }
-}
+}*/
 
 /* ===== COURSES SECTION ===== */
 .courses {
